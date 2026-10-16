@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+ <test name="All Pages" preserve-order="true">
+   <parameter name="bname" value="chrome"></parameter>
+       <classes>
+       <class name="com.blazedemo.testcases.HomePageTest"/>
+       <class name="com.blazedemo.testcases.ReservePageTest"/>
+       <class name="com.blazedemo.testcases.PurchasePageTest"/>
+       <class name="com.blazedemo.testcases.ConfirmationPageTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->														

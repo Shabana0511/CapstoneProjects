@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DataDriven_Step5(failed)">
+    <parameter name="bname" value="chrome"/>
+    <classes>
+      <class name="com.blazedemo.testcases.DataDrivenFlightBookingTest">
+        <methods>
+          <include name="resetToHomePage"/>
+          <include name="verifyNegativeValidationScenarios" invocation-numbers="1 2 3 4"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.blazedemo.testcases.DataDrivenFlightBookingTest -->
+    </classes>
+  </test> <!-- DataDriven_Step5(failed) -->
+</suite> <!-- Failed suite [Suite] -->
